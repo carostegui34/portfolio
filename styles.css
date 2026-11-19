@@ -325,3 +325,11 @@ a.thumb { text-decoration: none; }
 @media (max-width: 760px) { .split { grid-template-columns: 1fr; gap: 24px; } }
 .post-links { list-style: none; padding: 0; margin: 8px 0 0; display: grid; gap: 6px; font-size: .92rem; }
 .post-links li::before { content: "▸ "; color: var(--accent-soft); }
+.section-intro { color: var(--muted); max-width: 68ch; margin: 0 0 20px; }
+.qoh-videos { margin-bottom: 48px; }
+.video-title { font-family: var(--serif); font-size: 1.2rem; font-weight: 600; line-height: 1.2; margin: 0 0 8px; }
+.video-title a { text-decoration: none; }
+.video-title a:hover { color: var(--accent); }
+.thumb.contain { background: #fff; border: 1px solid var(--rule); }
+.thumb.contain img { object-fit: contain; padding: 12px; }
+.qoh-videos .thumb { aspect-ratio: 4 / 5; }
