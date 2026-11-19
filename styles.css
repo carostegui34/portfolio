@@ -318,3 +318,10 @@ a.project-link:focus-visible { outline: 2px solid var(--accent-soft); outline-of
 /* Hidden drafts stay hidden even when a class sets display */
 [hidden] { display: none !important; }
 .feature:not(:has(~ .feature:not([hidden]))) { margin-bottom: 0; padding-bottom: 0; border-bottom: 0; }
+a.thumb { text-decoration: none; }
+.examples.single { grid-template-columns: minmax(0, 340px); }
+.split { display: grid; grid-template-columns: 1fr 340px; gap: 48px; align-items: start; }
+.split .examples { margin-top: 0; }
+@media (max-width: 760px) { .split { grid-template-columns: 1fr; gap: 24px; } }
+.post-links { list-style: none; padding: 0; margin: 8px 0 0; display: grid; gap: 6px; font-size: .92rem; }
+.post-links li::before { content: "▸ "; color: var(--accent-soft); }
