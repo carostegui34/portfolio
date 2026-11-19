@@ -333,3 +333,7 @@ a.thumb { text-decoration: none; }
 .thumb.contain { background: #fff; border: 1px solid var(--rule); }
 .thumb.contain img { object-fit: contain; padding: 12px; }
 .qoh-videos .thumb { aspect-ratio: 4 / 5; }
+.role-block { margin: 20px 0 16px; }
+.role-label { font: 600 .75rem var(--sans); text-transform: uppercase; letter-spacing: .12em; color: var(--accent); margin: 0 0 8px; }
+.role-list { margin: 0; padding-left: 1.1em; color: var(--muted); font-size: .95rem; display: grid; gap: 6px; }
+.role-list li::marker { color: var(--accent-soft); }
